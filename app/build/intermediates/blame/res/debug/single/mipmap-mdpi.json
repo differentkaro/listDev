@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/home/runzlord/AndroidStudioProjects/CrossCheck/app/build/intermediates/res/merged/debug/mipmap-mdpi/ic_launcher_round.png",
+        "source": "/home/runzlord/AndroidStudioProjects/CrossCheck/app/src/main/res/mipmap-mdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/home/runzlord/AndroidStudioProjects/ListDev/app/build/intermediates/res/merged/debug/mipmap-mdpi/ic_launcher.png",
+        "source": "/home/runzlord/AndroidStudioProjects/ListDev/app/src/main/res/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/runzlord/AndroidStudioProjects/CrossCheck/app/build/intermediates/res/merged/debug/mipmap-mdpi/ic_launcher.png",
+        "source": "/home/runzlord/AndroidStudioProjects/CrossCheck/app/src/main/res/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/runzlord/AndroidStudioProjects/ListDev/app/build/intermediates/res/merged/debug/mipmap-mdpi/ic_launcher_round.png",
+        "source": "/home/runzlord/AndroidStudioProjects/ListDev/app/src/main/res/mipmap-mdpi/ic_launcher_round.png"
+    }
+]
