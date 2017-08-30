@@ -54,7 +54,7 @@ public class ProfileActivity extends AppCompatActivity {
 
                 Intent shareIntent = new Intent(Intent.ACTION_SEND);
                 shareIntent.setType("text/plain");
-                shareIntent.putExtra(Intent.EXTRA_TEXT, "This is one good developer " + userName +
+                shareIntent.putExtra(Intent.EXTRA_TEXT, "Check out this awesome developer " + userName +
                         ", " + profileUrl);
                 Intent chooser = Intent.createChooser(shareIntent, "Share via");
                 if (shareIntent.resolveActivity(getPackageManager()) != null) {
