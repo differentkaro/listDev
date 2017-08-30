@@ -364,7 +364,9 @@
     <string name="abc_toolbar_collapse_description">Collapse</string>
     <string name="app_name">List Dev</string>
     <string name="search_menu_title">Search</string>
+    <string name="share">SHARE</string>
     <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="url"><u>URL</u></string>
     <string name="username">Username</string>
     <style name="AlertDialog.AppCompat" parent="Base.AlertDialog.AppCompat"/>
     <style name="AlertDialog.AppCompat.Light" parent="Base.AlertDialog.AppCompat.Light"/>

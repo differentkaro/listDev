@@ -2,10 +2,11 @@ package com.example.ekene.ListDev;
 
 import android.content.Intent;
 import android.net.Uri;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
+import android.text.SpannableString;
+import android.text.style.UnderlineSpan;
 import android.view.View;
-import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.TextView;
 
@@ -16,18 +17,21 @@ public class ProfileActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_profile);
+        setContentView(com.example.ekene.ListDev.R.layout.activity_profile);
 
-        ImageView profileImageView = (ImageView) findViewById(R.id.profileImageView);
-        TextView userNameTextView = (TextView) findViewById(R.id.usernameTextView);
-        ImageButton shareProfile = (ImageButton) findViewById(R.id.shareProfile);
-        TextView developerUrl = (TextView) findViewById(R.id.developerUrl);
+        ImageView profileImageView = (ImageView) findViewById(com.example.ekene.ListDev.R.id.profileImageView);
+        TextView userNameTextView = (TextView) findViewById(com.example.ekene.ListDev.R.id.usernameTextView);
+        TextView shareProfile = (TextView) findViewById(com.example.ekene.ListDev.R.id.shareProfile);
+        TextView developerUrl = (TextView) findViewById(com.example.ekene.ListDev.R.id.developerUrl);
+        SpannableString content = new SpannableString("content");
+        content.setSpan(new UnderlineSpan(), 0, content.length(), 0);
+        developerUrl.setText(content);
 
 
         Intent intent = getIntent();
-        final String userName = intent.getStringExtra(DevelopersAdapter.KEY_NAME);
-        String image = intent.getStringExtra(DevelopersAdapter.KEY_IMAGE);
-        final String profileUrl = intent.getStringExtra(DevelopersAdapter.KEY_URL);
+        final String userName = intent.getStringExtra(com.example.ekene.ListDev.DevelopersAdapter.KEY_NAME);
+        String image = intent.getStringExtra(com.example.ekene.ListDev.DevelopersAdapter.KEY_IMAGE);
+        final String profileUrl = intent.getStringExtra(com.example.ekene.ListDev.DevelopersAdapter.KEY_URL);
 
 
         Picasso.with(this)
@@ -55,7 +59,7 @@ public class ProfileActivity extends AppCompatActivity {
 
                 Intent shareIntent = new Intent(Intent.ACTION_SEND);
                 shareIntent.setType("text/plain");
-                shareIntent.putExtra(Intent.EXTRA_TEXT, "Check out this awesome developer " + userName +
+                shareIntent.putExtra(Intent.EXTRA_TEXT, "This is one good developer " + userName +
                         ", " + profileUrl);
                 Intent chooser = Intent.createChooser(shareIntent, "Share via");
                 if (shareIntent.resolveActivity(getPackageManager()) != null) {

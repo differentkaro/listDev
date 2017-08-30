@@ -12,12 +12,12 @@
         "source": "/home/runzlord/.android/build-cache/6b1df1c87f13c4cf37b6ff709ab54bf98edad1cb/output/res/drawable/abc_list_selector_holo_light.xml"
     },
     {
-        "merged": "/home/runzlord/AndroidStudioProjects/CrossCheck/app/build/intermediates/res/merged/debug/drawable/abc_dialog_material_background.xml",
-        "source": "/home/runzlord/.android/build-cache/6b1df1c87f13c4cf37b6ff709ab54bf98edad1cb/output/res/drawable/abc_dialog_material_background.xml"
-    },
-    {
         "merged": "/home/runzlord/AndroidStudioProjects/ListDev/app/build/intermediates/res/merged/debug/drawable/notification_icon_background.xml",
         "source": "/home/runzlord/.android/build-cache/6b1df1c87f13c4cf37b6ff709ab54bf98edad1cb/output/res/drawable/notification_icon_background.xml"
+    },
+    {
+        "merged": "/home/runzlord/AndroidStudioProjects/CrossCheck/app/build/intermediates/res/merged/debug/drawable/abc_dialog_material_background.xml",
+        "source": "/home/runzlord/.android/build-cache/6b1df1c87f13c4cf37b6ff709ab54bf98edad1cb/output/res/drawable/abc_dialog_material_background.xml"
     },
     {
         "merged": "/home/runzlord/AndroidStudioProjects/CrossCheck/app/build/intermediates/res/merged/debug/drawable/abc_ic_ab_back_material.xml",
@@ -192,8 +192,16 @@
         "source": "/home/runzlord/.android/build-cache/6b1df1c87f13c4cf37b6ff709ab54bf98edad1cb/output/res/drawable/abc_spinner_textfield_background_material.xml"
     },
     {
+        "merged": "/home/runzlord/AndroidStudioProjects/ListDev/app/build/intermediates/res/merged/debug/drawable/share.png",
+        "source": "/home/runzlord/AndroidStudioProjects/ListDev/app/src/main/res/drawable/share.png"
+    },
+    {
         "merged": "/home/runzlord/AndroidStudioProjects/ListDev/app/build/intermediates/res/merged/debug/drawable/abc_ic_search_api_material.xml",
         "source": "/home/runzlord/.android/build-cache/6b1df1c87f13c4cf37b6ff709ab54bf98edad1cb/output/res/drawable/abc_ic_search_api_material.xml"
+    },
+    {
+        "merged": "/home/runzlord/AndroidStudioProjects/ListDev/app/build/intermediates/res/merged/debug/drawable/link.png",
+        "source": "/home/runzlord/AndroidStudioProjects/ListDev/app/src/main/res/drawable/link.png"
     },
     {
         "merged": "/home/runzlord/AndroidStudioProjects/ListDev/app/build/intermediates/res/merged/debug/drawable/share_avatar.png",

@@ -1,8 +1,8 @@
 package com.example.ekene.ListDev;
 
 import android.app.ProgressDialog;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.widget.Toast;
@@ -27,14 +27,14 @@ public class MainActivity extends AppCompatActivity {
 
     private RecyclerView recyclerView;
     private RecyclerView.Adapter adapter;
-    private List<DevelopersList> developersLists;
+    private List<com.example.ekene.ListDev.DevelopersList> developersLists;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(com.example.ekene.ListDev.R.layout.activity_main);
 
-        recyclerView = (RecyclerView) findViewById(R.id.recyclerView);
+        recyclerView = (RecyclerView) findViewById(com.example.ekene.ListDev.R.id.recyclerView);
         recyclerView.setHasFixedSize(true);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
 
@@ -66,13 +66,13 @@ public class MainActivity extends AppCompatActivity {
 
                         JSONObject jo = array.getJSONObject(i);
 
-                        DevelopersList developers = new DevelopersList(jo.getString("login"), jo.getString("html_url"),
+                        com.example.ekene.ListDev.DevelopersList developers = new com.example.ekene.ListDev.DevelopersList(jo.getString("login"), jo.getString("html_url"),
                                 jo.getString("avatar_url"));
                         developersLists.add(developers);
 
                     }
 
-                    adapter = new DevelopersAdapter(developersLists, getApplicationContext());
+                    adapter = new com.example.ekene.ListDev.DevelopersAdapter(developersLists, getApplicationContext());
                     recyclerView.setAdapter(adapter);
 
                 } catch (JSONException e) {

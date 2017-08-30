@@ -12,12 +12,12 @@
         "source": "/home/runzlord/.android/build-cache/6b1df1c87f13c4cf37b6ff709ab54bf98edad1cb/output/res/layout/abc_action_bar_view_list_nav_layout.xml"
     },
     {
-        "merged": "/home/runzlord/AndroidStudioProjects/CrossCheck/app/build/intermediates/res/merged/debug/layout/abc_search_view.xml",
-        "source": "/home/runzlord/.android/build-cache/6b1df1c87f13c4cf37b6ff709ab54bf98edad1cb/output/res/layout/abc_search_view.xml"
-    },
-    {
         "merged": "/home/runzlord/AndroidStudioProjects/ListDev/app/build/intermediates/res/merged/debug/layout/activity_profile.xml",
         "source": "/home/runzlord/AndroidStudioProjects/ListDev/app/src/main/res/layout/activity_profile.xml"
+    },
+    {
+        "merged": "/home/runzlord/AndroidStudioProjects/CrossCheck/app/build/intermediates/res/merged/debug/layout/abc_search_view.xml",
+        "source": "/home/runzlord/.android/build-cache/6b1df1c87f13c4cf37b6ff709ab54bf98edad1cb/output/res/layout/abc_search_view.xml"
     },
     {
         "merged": "/home/runzlord/AndroidStudioProjects/ListDev/app/build/intermediates/res/merged/debug/layout/select_dialog_singlechoice_material.xml",

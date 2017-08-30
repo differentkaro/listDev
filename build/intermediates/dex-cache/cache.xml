@@ -2,40 +2,58 @@
 <items version="2" >
 
     <item
-        is-multidex="false"
-        jar="/home/runzlord/.android/build-cache/f65072b432d0bf65768da71268b5f19618099243/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="2cd4b982617e544728de0782d718a58ce1b06e3f">
-        <dex dex="/home/runzlord/AndroidStudioProjects/CrossCheck/app/build/intermediates/pre-dexed/debug/classes_50aa7b9603f42cbd4c33f729879dbf6ec417e8f1.jar" />
-    </item>
-    <item
-        is-multidex="false"
+        is-multidex="true"
         jar="/home/runzlord/.android/build-cache/23698e906d9cc95686dccd802e16ce1c250a58a5/output/jars/classes.jar"
-        jumboMode="false"
+        jumboMode="true"
         optimize="true"
         revision="25.0.2"
         sha1="914f5d3e3ace66080e59613708f06d129a222e25">
-        <dex dex="/home/runzlord/AndroidStudioProjects/CrossCheck/app/build/intermediates/pre-dexed/debug/classes_f78f9b1b44e55339f1af6f8466991428b05fb755.jar" />
+        <dex dex="/home/runzlord/AndroidStudioProjects/ListDev/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_f78f9b1b44e55339f1af6f8466991428b05fb755/classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="/home/runzlord/.android/build-cache/ab0e95801874ecdce9e3d554613a0c2ad24e625c/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="95519720620b553f63afc789beba9ad582807f7c">
-        <dex dex="/home/runzlord/AndroidStudioProjects/CrossCheck/app/build/intermediates/pre-dexed/debug/classes_9ec7a65436bf4d06dfcdacbd06cae57fd2827ca8.jar" />
-    </item>
-    <item
-        is-multidex="false"
+        is-multidex="true"
         jar="/home/runzlord/.gradle/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.5.2/7446d06ec8d4f7ffcc53f1da37c95f200dcb9387/picasso-2.5.2.jar"
-        jumboMode="false"
+        jumboMode="true"
         optimize="true"
         revision="25.0.2"
         sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
-        <dex dex="/home/runzlord/AndroidStudioProjects/CrossCheck/app/build/intermediates/pre-dexed/debug/picasso-2.5.2_e27d7e20d6b9b3f60932ddc9facad6ef354484ae.jar" />
+        <dex dex="/home/runzlord/AndroidStudioProjects/ListDev/app/build/intermediates/transforms/dex/debug/folders/1000/10/picasso-2.5.2_e27d7e20d6b9b3f60932ddc9facad6ef354484ae/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/runzlord/AndroidStudioProjects/ListDev/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="/home/runzlord/AndroidStudioProjects/ListDev/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_627745c6b9be1f3d4ce3a585de0bf6d77a6a1d42/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/runzlord/.android/build-cache/f65072b432d0bf65768da71268b5f19618099243/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="2cd4b982617e544728de0782d718a58ce1b06e3f">
+        <dex dex="/home/runzlord/AndroidStudioProjects/ListDev/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_50aa7b9603f42cbd4c33f729879dbf6ec417e8f1/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/runzlord/.android/build-cache/ab0e95801874ecdce9e3d554613a0c2ad24e625c/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="95519720620b553f63afc789beba9ad582807f7c">
+        <dex dex="/home/runzlord/AndroidStudioProjects/ListDev/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_9ec7a65436bf4d06dfcdacbd06cae57fd2827ca8/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/runzlord/AndroidStudioProjects/ListDev/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="91db1b967f77ad13f21bcc47fa1e0160c3acdc36">
+        <dex dex="/home/runzlord/AndroidStudioProjects/ListDev/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_32e747a28f2be9520102acdab41009163ac8a973/classes.dex" />
     </item>
 
 </items>

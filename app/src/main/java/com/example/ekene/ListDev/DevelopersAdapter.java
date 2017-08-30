@@ -25,10 +25,10 @@ public class DevelopersAdapter extends RecyclerView.Adapter<DevelopersAdapter.Vi
     public static final String KEY_IMAGE = "image";
     public static final String KEY_URL = "url";
 
-    private List<DevelopersList> developersLists;
+    private List<com.example.ekene.ListDev.DevelopersList> developersLists;
     private Context context;
 
-    public DevelopersAdapter(List<DevelopersList> developersLists, Context context) {
+    public DevelopersAdapter(List<com.example.ekene.ListDev.DevelopersList> developersLists, Context context) {
 
         this.developersLists = developersLists;
         this.context = context;
@@ -39,7 +39,7 @@ public class DevelopersAdapter extends RecyclerView.Adapter<DevelopersAdapter.Vi
     public ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
 
         View v = LayoutInflater.from(parent.getContext())
-                .inflate(R.layout.developers_list, parent, false);
+                .inflate(com.example.ekene.ListDev.R.layout.developers_list, parent, false);
 
         return new ViewHolder(v);
     }
@@ -47,7 +47,7 @@ public class DevelopersAdapter extends RecyclerView.Adapter<DevelopersAdapter.Vi
     @Override
     public void onBindViewHolder(ViewHolder holder, final int position) {
 
-        final DevelopersList developersList = developersLists.get(position);
+        final com.example.ekene.ListDev.DevelopersList developersList = developersLists.get(position);
         holder.login.setText(developersList.getLogin());
 
         Picasso.with(context)
@@ -58,9 +58,9 @@ public class DevelopersAdapter extends RecyclerView.Adapter<DevelopersAdapter.Vi
             @Override
             public void onClick(View v) {
 
-                DevelopersList developersList1 = developersLists.get(position);
+                com.example.ekene.ListDev.DevelopersList developersList1 = developersLists.get(position);
 
-                Intent skipIntent = new Intent(v.getContext(), ProfileActivity.class);
+                Intent skipIntent = new Intent(v.getContext(), com.example.ekene.ListDev.ProfileActivity.class);
                 skipIntent.putExtra(KEY_NAME, developersList1.getLogin());
                 skipIntent.putExtra(KEY_URL, developersList1.getHtml_url());
                 skipIntent.putExtra(KEY_IMAGE, developersList1.getAvatar_url());
@@ -85,10 +85,10 @@ public class DevelopersAdapter extends RecyclerView.Adapter<DevelopersAdapter.Vi
         public ViewHolder(View itemView) {
             super(itemView);
 
-            login = (TextView) itemView.findViewById(R.id.username);
-            avatar_url = (ImageView) itemView.findViewById(R.id.imageView);
-            html_url = (TextView) itemView.findViewById(R.id.htmUrl);
-            linearLayout = (LinearLayout) itemView.findViewById(R.id.linearLayout);
+            login = (TextView) itemView.findViewById(com.example.ekene.ListDev.R.id.username);
+            avatar_url = (ImageView) itemView.findViewById(com.example.ekene.ListDev.R.id.imageView);
+            html_url = (TextView) itemView.findViewById(com.example.ekene.ListDev.R.id.htmUrl);
+            linearLayout = (LinearLayout) itemView.findViewById(com.example.ekene.ListDev.R.id.linearLayout);
         }
 
     }
