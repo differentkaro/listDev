@@ -4,8 +4,6 @@ import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
-import android.text.SpannableString;
-import android.text.style.UnderlineSpan;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
@@ -23,9 +21,6 @@ public class ProfileActivity extends AppCompatActivity {
         TextView userNameTextView = (TextView) findViewById(com.example.ekene.ListDev.R.id.usernameTextView);
         TextView shareProfile = (TextView) findViewById(com.example.ekene.ListDev.R.id.shareProfile);
         TextView developerUrl = (TextView) findViewById(com.example.ekene.ListDev.R.id.developerUrl);
-        SpannableString content = new SpannableString("content");
-        content.setSpan(new UnderlineSpan(), 0, content.length(), 0);
-        developerUrl.setText(content);
 
 
         Intent intent = getIntent();
